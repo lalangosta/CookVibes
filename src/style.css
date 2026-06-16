@@ -1,0 +1,42 @@
+:root {
+  --color-fondo: #fdf5e6;
+  --fuente-principal: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: var(--color-fondo);
+  font-family: var(--fuente-principal);
+}
+
+header {
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.btn {
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid black;
+  font-family: inherit; 
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+}
+
+.btn-white {
+  background-color: white;
+  color: black;
+}
